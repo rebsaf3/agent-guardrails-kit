@@ -1,0 +1,16 @@
+{
+  "run_id": "run_example_001",
+  "intent": "fetch_approved_content",
+  "selection": {
+    "site": "Employee_Resources",
+    "page_path": "/policies/pto"
+  },
+  "request": {
+    "question": "Where do I find the PTO policy"
+  },
+  "constraints": {
+    "approved_sources_only": true,
+    "no_invention": true,
+    "require_disambiguation": true
+  }
+}

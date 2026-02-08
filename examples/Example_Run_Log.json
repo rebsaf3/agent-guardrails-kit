@@ -1,0 +1,13 @@
+{
+  "run_id": "run_example_001",
+  "status": "ok",
+  "audit": {
+    "selection_confirmed": true,
+    "sources_consulted": [
+      "ApprovedKnowledge"
+    ],
+    "tool_calls": 1
+  },
+  "warnings": [],
+  "errors": []
+}

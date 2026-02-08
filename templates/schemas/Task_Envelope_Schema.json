@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TaskEnvelope",
+  "type": "object",
+  "required": [
+    "run_id",
+    "intent",
+    "request",
+    "constraints"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "intent": {
+      "type": "string"
+    },
+    "selection": {
+      "type": "object"
+    },
+    "request": {
+      "type": "object"
+    },
+    "constraints": {
+      "type": "object",
+      "properties": {
+        "approved_sources_only": {
+          "type": "boolean"
+        },
+        "no_invention": {
+          "type": "boolean"
+        },
+        "require_disambiguation": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
