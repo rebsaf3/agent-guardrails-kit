@@ -1,3 +1,4 @@
+```markdown
 # Agent Guardrails Kit
 A reusable kit for building business agents that are safe, predictable, and auditable.
 
